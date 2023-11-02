@@ -1,0 +1,15 @@
+.logosSlide {
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  align-self: flex-end;
+}
+
+.slide {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}

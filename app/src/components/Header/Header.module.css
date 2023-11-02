@@ -1,0 +1,25 @@
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  max-width: 60px;
+}
+
+.profileImageButton {
+  background-color: transparent;
+  border: none;
+}

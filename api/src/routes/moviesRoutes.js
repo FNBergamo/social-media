@@ -1,8 +1,7 @@
 const express = require("express")
 const axios = require("axios")
 const router = express.Router()
-const API_KEY =
-  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5OTM1NzJmMDg1MTQ0NzI2NDEzMTI5YjIxYWVkOWJlZSIsInN1YiI6IjY0ZDMyNzE1ZGI0ZWQ2MDBhZDIzN2ZmMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dvdT4xvjtFl48QB3hc9rllsO8CxnsGvWj2B0d6Wy9ZA"
+const API_KEY = process.env.API_KEY
 
 router.get("/trending", async (req, res) => {
   try {

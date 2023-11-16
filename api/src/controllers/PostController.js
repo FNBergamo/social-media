@@ -1,6 +1,7 @@
 const { INTERACTION_TYPE } = require("../constants/Interaction")
 const Post = require("../models/Post")
 const User = require("../models/User")
+const PostInteractions = require("../models/PostInteractions")
 
 const getAllPosts = async (req, res) => {
   let posts
@@ -20,7 +21,7 @@ const getAllPosts = async (req, res) => {
 }
 
 const createPost = async (req, res) => {
-  const { title, image, tags, userId, communityId, private } = req.body
+  const { title, image, tags, userId, communityId, private, hidden } = req.body
 
   let user
 
@@ -79,97 +80,70 @@ const updatePost = async (req, res) => {
   return res.sendStatus(200)
 }
 
-const getPostById = async (req, res) => {
-  const postId = req.params.id
-
-  let post
-
-  try {
-    post = await Post.findById(postId)
-  } catch (err) {
-    console.log(err)
-  }
-
-  if (!post) {
-    return res.status(404).json({ message: "Post não encontrado" })
-  }
-
-  return res.status(200).json({ post })
-}
-
 const setPostInteraction = async (req, res) => {
   const { userId, postId, interactionType } = req.body
 
-  let post
-  let user
-  let newInteractionList = []
+  let updatedInteractions = []
 
   try {
-    post = await Post.findById(postId)
-  } catch (err) {
-    console.log(err)
-  }
+    const post = await Post.findById(postId)
 
-  if (!post) {
-    return res.status(404).json({ message: "Post não encontrado" })
-  }
+    if (!post) {
+      return res.status(404).json({ message: "Post não encontrado" })
+    }
 
-  try {
-    user = await User.findById(userId)
-  } catch (err) {
-    console.log(err)
-  }
+    const user = await User.findById(userId)
 
-  if (!user) {
-    return res.status(404).json({ message: "Usuário não encontrado" })
-  }
+    if (!user) {
+      return res.status(404).json({ message: "Usuário não encontrado" })
+    }
 
-  const userInteraction = post.interactions.find((interaction) => {
-    return interaction.userId === userId
-  })
+    const userInteraction = await PostInteractions.findOne({ user: userId })
 
-  if (userInteraction) {
-    if (userInteraction.type !== interactionType) {
-      // renomear lista sem a interação do usuário
-      newInteractionList = post.interactions.filter(
-        (interaction) => interaction.userId !== userId
-      )
-      newInteractionList = [
-        ...newInteractionList,
-        { userId, type: interactionType },
-      ]
+    if (userInteraction) {
+      if (userInteraction.type !== interactionType) {
+        await PostInteractions.findByIdAndUpdate(userInteraction._id, {
+          type: interactionType,
+        })
+        updatedInteractions = post.interactions
+      } else {
+        updatedInteractions = post.interactions.filter(
+          (interaction) =>
+            interaction.toString() !== userInteraction._id.toString()
+        )
+
+        await PostInteractions.findByIdAndDelete(userInteraction._id)
+      }
     } else {
-      // renomear lista sem a interação do usuário
-      newInteractionList = post.interactions.filter((interaction) => {
-        return interaction.userId !== userId
+      const newInteraction = new PostInteractions({
+        user: userId,
+        type: interactionType,
       })
-    }
-  } else {
-    newInteractionList = [
-      ...newInteractionList,
-      { userId, type: interactionType },
-    ]
-  }
+      await newInteraction.save()
 
-  const likes = newInteractionList.reduce((result, interaction) => {
-    if (interaction.type === INTERACTION_TYPE.UPVOTE) {
-      result++
-    } else if (interaction.type === INTERACTION_TYPE.DOWNVOTE) {
-      result--
+      updatedInteractions = [...post.interactions, newInteraction._id]
     }
-    return result
-  }, 0)
 
-  try {
-    post = await Post.findByIdAndUpdate(postId, {
-      interactions: newInteractionList,
-      likes,
-    })
+    const interactions = await PostInteractions.find()
+    const likes = interactions.reduce((result, interaction) => {
+      if (interaction.type === INTERACTION_TYPE.UPVOTE) {
+        result++
+      } else if (interaction.type === INTERACTION_TYPE.DOWNVOTE) {
+        result--
+      }
+      return result
+    }, 0)
+
+    const response = await Post.findByIdAndUpdate(
+      postId,
+      { $set: { interactions: updatedInteractions, likes } },
+      { new: true }
+    )
+    return res.status(200).json({ response })
   } catch (err) {
     console.log(err)
+    return res.status(500).json({ message: "Erro Interno" })
   }
-
-  return res.sendStatus(200)
 }
 
 const deletePost = async (req, res) => {
@@ -178,7 +152,7 @@ const deletePost = async (req, res) => {
   let post
 
   try {
-    post = await Post.findByIdAndRemove(postId)
+    post = await Post.findByIdAndDelete(postId)
   } catch (err) {
     console.log(err)
   }
@@ -190,7 +164,7 @@ const deletePost = async (req, res) => {
   return res.sendStatus(200)
 }
 
-const teste = async (req, res) => {
+const getPostById = async (req, res) => {
   const postId = req.params.id
 
   try {
@@ -210,5 +184,4 @@ module.exports = {
   getPostById,
   setPostInteraction,
   deletePost,
-  teste,
 }

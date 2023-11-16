@@ -27,7 +27,6 @@ const userSchema = new Schema({
   birthDate: {
     type: Date,
     required: true,
-    unique: true,
   },
 })
 

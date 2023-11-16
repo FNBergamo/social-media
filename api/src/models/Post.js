@@ -1,4 +1,5 @@
 const mongoose = require("mongoose")
+const { interactionSchema } = require("./PostInteractions")
 
 const Schema = mongoose.Schema
 
@@ -41,7 +42,13 @@ const postSchema = new Schema({
     default: 0,
   },
   interactions: {
-    type: Array,
+    type: [
+      {
+        type: mongoose.Types.ObjectId,
+        ref: "PostInteraction",
+      },
+    ],
+    default: [],
   },
 })
 

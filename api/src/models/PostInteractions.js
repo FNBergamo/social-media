@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 const Schema = mongoose.Schema
 
-const interactionSchema = new Schema({
+const postInteractionSchema = new Schema({
   user: {
     type: mongoose.Types.ObjectId,
     ref: "User",
@@ -13,6 +13,9 @@ const interactionSchema = new Schema({
   },
 })
 
-const InteractionModel = mongoose.model("Interaction", interactionSchema)
+const PostInteractionModel = mongoose.model(
+  "PostInteraction",
+  postInteractionSchema
+)
 
-module.exports = InteractionModel
+module.exports = PostInteractionModel

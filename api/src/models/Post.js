@@ -1,5 +1,4 @@
 const mongoose = require("mongoose")
-const { interactionSchema } = require("./PostInteractions")
 
 const Schema = mongoose.Schema
 

@@ -4,20 +4,63 @@ const User = require("../models/User")
 const PostInteractions = require("../models/PostInteractions")
 
 const getAllPosts = async (req, res) => {
-  let posts
-
   try {
-    posts = await Post.find()
+    const page = parseInt(req.query.page) || 1
+    const perPage = parseInt(req.query.perPage) || 10
+
+    const totalPosts = await Post.countDocuments()
+    const totalPages = Math.ceil(totalPosts / perPage)
+
+    const posts = await Post.find()
+      .skip((page - 1) * perPage)
+      .limit(perPage)
+      .populate({ path: "user", select: "name username profilePicture" })
+      .populate({
+        path: "comments",
+        populate: {
+          path: "user",
+          select: "name username profilePicture",
+        },
+      })
+      .exec()
+
+    if (!posts.length) {
+      return res
+        .status(404)
+        .json({ message: "Nenhum registro de post encontrado" })
+    }
+    return res.status(200).json({ posts, totalPages, currentPage: page })
   } catch (err) {
     console.log(err)
+    return res.status(500).json({ message: "Erro interno" })
   }
+}
 
-  if (!posts) {
-    return res
-      .status(404)
-      .json({ message: "Nenhum registro de post encontrado" })
+const getAllPublicPosts = async (req, res) => {
+  try {
+    const page = parseInt(req.query.page) || 1
+    const perPage = parseInt(req.query.perPage) || 10
+
+    const totalPosts = await Post.countDocuments()
+    const totalPages = Math.ceil(totalPosts / perPage)
+
+    const posts = await Post.find({ private: false, hidden: false })
+      .sort({
+        creation_date: -1,
+      })
+      .skip((page - 1) * perPage)
+      .limit(perPage)
+
+    if (!posts.length) {
+      return res
+        .status(404)
+        .json({ message: "Nenhum registro de post encontrado" })
+    }
+    return res.status(200).json({ posts, totalPages, currentPage: page })
+  } catch (err) {
+    console.log(err)
+    return res.status(500).json({ message: "Erro interno" })
   }
-  return res.status(200).json({ posts })
 }
 
 const createPost = async (req, res) => {
@@ -170,6 +213,13 @@ const getPostById = async (req, res) => {
   try {
     const post = await Post.findById(postId)
       .populate({ path: "user", select: "name username profilePicture" })
+      .populate({
+        path: "comments",
+        populate: {
+          path: "user",
+          select: "name username profilePicture",
+        },
+      })
       .exec()
     return res.status(200).json({ post })
   } catch (err) {
@@ -179,6 +229,7 @@ const getPostById = async (req, res) => {
 
 module.exports = {
   getAllPosts,
+  getAllPublicPosts,
   createPost,
   updatePost,
   getPostById,

@@ -15,7 +15,13 @@ const postSchema = new Schema({
     type: String,
   },
   comments: {
-    type: Array,
+    type: [
+      {
+        type: mongoose.Types.ObjectId,
+        ref: "Comment",
+      },
+    ],
+    default: [],
   },
   tags: {
     type: Array,

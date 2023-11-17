@@ -8,18 +8,20 @@ const friendshipSchema = new Schema({
     type: mongoose.Types.ObjectId,
     ref: "User",
     required: true,
+    unique: true,
   },
   requestedUser: {
     type: mongoose.Types.ObjectId,
     ref: "User",
     required: true,
+    unique: true,
   },
   creation_date: {
     type: Date,
     required: true,
   },
-  Status: {
-    type: FRIENDSHIP_STATUS,
+  status: {
+    type: String,
     required: true,
   },
 })

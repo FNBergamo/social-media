@@ -1,6 +1,6 @@
 module.exports.FRIENDSHIP_STATUS = {
   ACCEPTED: "Accepted",
-  WAITING: "Waiting confirmation",
+  WAITING: "Waiting",
   REFUSED: "Refused",
   BLOCKED: "Blocked",
 }

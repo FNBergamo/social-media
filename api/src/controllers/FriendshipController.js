@@ -2,12 +2,50 @@ const User = require("../models/User")
 const Friendship = require("../models/Friendship")
 const { FRIENDSHIP_STATUS } = require("../constants/FriendshipStatus")
 
-const findFriendshipRequest = async (req, res) => {
-  const postId = req.params.id
+const getAllRequests = async (req, res) => {
+  try {
+    const friendships = await Friendship.find()
+
+    if (!friendships.length) {
+      return res.status(404).json({ message: "Nenhuma solicitação encontrada" })
+    }
+
+    return res.status(200).json({ friendships })
+  } catch (err) {
+    console.log(err)
+    return res.status(500).json({ message: "Erro interno" })
+  }
+}
+
+const getAllUserRequests = async (req, res) => {
+  const userId = req.params.id
+  const status = req.query.status || FRIENDSHIP_STATUS.WAITING
+  console.log(status)
+
+  try {
+    // const friendships = await Friendship.find({
+    //   $or: [{ senderUser: userId }, { requestedUser: userId }],
+    // })
+
+    const requestSended = await Friendship.find({
+      senderUser: userId,
+      status,
+    })
+    const requestRecived = await Friendship.find({
+      requestedUser: userId,
+      status,
+    })
+
+    return res.status(200).json({ requestSended, requestRecived })
+  } catch (err) {
+    console.log(err)
+    return res.status(500).json({ message: "Erro interno" })
+  }
 }
 
 const sendRequest = async (req, res) => {
-  const { senderId, requestedId } = req.body
+  const requestedId = req.params.id
+  const { senderId } = req.body
 
   try {
     const sender = await User.findById(senderId)
@@ -47,16 +85,17 @@ const sendRequest = async (req, res) => {
           message: "Solicitação já enviada, esperando confirmação",
         })
       }
-
-      const newFriendshipRequest = new Friendship({
-        senderUser: senderId,
-        requestedUser: requestedId,
-        creation_date: new Date(),
-      })
-
-      newFriendshipRequest.save()
-      return res.sendStatus(201)
     }
+
+    const newFriendshipRequest = new Friendship({
+      senderUser: senderId,
+      requestedUser: requestedId,
+      creation_date: new Date(),
+      status: FRIENDSHIP_STATUS.WAITING,
+    })
+
+    newFriendshipRequest.save()
+    return res.sendStatus(201)
   } catch (err) {
     console.log(err)
     return res
@@ -65,61 +104,67 @@ const sendRequest = async (req, res) => {
   }
 }
 
-// const friendship = new Friendship({
-//     senderUser: senderId,
-//     requestedUser: requestedId,
-//     creation_date: new Date(),
-//     status,
-//   })
-const undoFriendship = async (req, res) => {
-  let posts
+const acceptDenyOrBlockRequest = async (req, res) => {
+  const friendshipId = req.params.id
+  const { status } = req.body
 
   try {
-    posts = await Post.find()
+    if (status === FRIENDSHIP_STATUS.REFUSED) {
+      await Friendship.findByIdAndDelete(friendshipId)
+      return res
+        .status(200)
+        .json({ message: "Solicitação de amizade recusada" })
+    }
+
+    const updatedFriendship = await Friendship.findByIdAndUpdate(
+      friendshipId,
+      { status },
+      { new: true }
+    )
+
+    if (!updatedFriendship) {
+      return res
+        .status(500)
+        .json({ message: "Não foi possível efetuar a requisição" })
+    }
+
+    if (updatedFriendship.status === FRIENDSHIP_STATUS.ACCEPTED) {
+      return res.status(200).json({ message: "Solicitação de amizade aceita" })
+    } else {
+      return res.status(200).json({ message: "Usuário bloqueado" })
+    }
   } catch (err) {
     console.log(err)
+    return res.status(500).json({ message: "Erro interno" })
   }
+}
 
-  if (!posts) {
-    return res
-      .status(404)
-      .json({ message: "Nenhum registro de post encontrado" })
+const undoFriendship = async (req, res) => {
+  const friendshipId = req.params.id
+
+  try {
+    const friendship = await Friendship.findById(friendshipId)
+
+    if (friendship.status === FRIENDSHIP_STATUS.ACCEPTED) {
+      await Friendship.findByIdAndDelete(friendshipId)
+      return res.status(200).json({ message: "Amizade desfeita" })
+    }
+  } catch (err) {
+    console.log(err)
+    return res.status(500).json({ message: "Erro interno" })
   }
-  return res.status(200).json({ posts })
 }
 
 const blockOrUnblockUser = async (req, res) => {
-  let posts
+  const friendshipId = req.params.id
 
   try {
-    posts = await Post.find()
+    await Friendship.findByIdAndDelete(friendshipId)
+    return res.status(200).json({ message: "Usuário não mais bloquedo" })
   } catch (err) {
     console.log(err)
+    return res.status(500).json({ message: "Erro interno" })
   }
-
-  if (!posts) {
-    return res
-      .status(404)
-      .json({ message: "Nenhum registro de post encontrado" })
-  }
-  return res.status(200).json({ posts })
-}
-
-const acceptDenyOrBlockRequest = async (req, res) => {
-  let posts
-
-  try {
-    posts = await Post.find()
-  } catch (err) {
-    console.log(err)
-  }
-
-  if (!posts) {
-    return res
-      .status(404)
-      .json({ message: "Nenhum registro de post encontrado" })
-  }
-  return res.status(200).json({ posts })
 }
 
 module.exports = {
@@ -127,4 +172,6 @@ module.exports = {
   acceptDenyOrBlockRequest,
   blockOrUnblockUser,
   undoFriendship,
+  getAllRequests,
+  getAllUserRequests,
 }

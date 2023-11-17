@@ -7,6 +7,7 @@ const cors = require("cors")
 const userRoutes = require("./routes/userRoutes")
 const postRoutes = require("./routes/postRoutes")
 const commentRoutes = require("./routes/commentRoutes")
+const friendshipRoutes = require("./routes/friendshipRoutes")
 const productRoutes = require("./routes/moviesRoutes")
 
 const app = express()
@@ -19,6 +20,7 @@ app.use(bodyParser.json())
 app.use("/api/users", userRoutes)
 app.use("/api/posts", postRoutes)
 app.use("/api/comments", commentRoutes)
+app.use("/api/friendship", friendshipRoutes)
 app.use("/api/movies", productRoutes)
 
 app.listen(port, () => {

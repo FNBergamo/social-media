@@ -97,10 +97,77 @@ const getCommentById = async (req, res) => {
   }
 }
 
+const setCommentInteraction = async (req, res) => {
+  const { userId, commentId, interactionType } = req.body
+
+  let updatedInteractions = []
+
+  try {
+    const comment = await Comment.findById(commentId)
+
+    if (!comment) {
+      return res.status(404).json({ message: "Comentário não encontrado" })
+    }
+
+    const user = await User.findById(userId)
+
+    if (!user) {
+      return res.status(404).json({ message: "Usuário não encontrado" })
+    }
+
+    const userInteraction = await CommentInteractions.findOne({ user: userId })
+
+    if (userInteraction) {
+      if (userInteraction.type !== interactionType) {
+        await CommentInteractions.findByIdAndUpdate(userInteraction._id, {
+          type: interactionType,
+        })
+        updatedInteractions = comment.interactions
+      } else {
+        updatedInteractions = comment.interactions.filter(
+          (interaction) =>
+            interaction.toString() !== userInteraction._id.toString()
+        )
+
+        await CommentInteractions.findByIdAndDelete(userInteraction._id)
+      }
+    } else {
+      const newInteraction = new CommentInteractions({
+        user: userId,
+        type: interactionType,
+      })
+      await newInteraction.save()
+
+      updatedInteractions = [...comment.interactions, newInteraction._id]
+    }
+
+    const interactions = await CommentInteractions.find()
+    const likes = interactions.reduce((result, interaction) => {
+      if (interaction.type === INTERACTION_TYPE.UPVOTE) {
+        result++
+      } else if (interaction.type === INTERACTION_TYPE.DOWNVOTE) {
+        result--
+      }
+      return result
+    }, 0)
+
+    const response = await Comment.findByIdAndUpdate(
+      commentId,
+      { $set: { interactions: updatedInteractions, likes } },
+      { new: true }
+    )
+    return res.status(200).json({ response })
+  } catch (err) {
+    console.log(err)
+    return res.status(500).json({ message: "Erro Interno" })
+  }
+}
+
 module.exports = {
   getAllComments,
   createComment,
   updateComment,
   getCommentById,
   deleteComment,
+  setCommentInteraction,
 }

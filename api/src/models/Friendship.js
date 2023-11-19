@@ -8,13 +8,11 @@ const friendshipSchema = new Schema({
     type: mongoose.Types.ObjectId,
     ref: "User",
     required: true,
-    unique: true,
   },
   requestedUser: {
     type: mongoose.Types.ObjectId,
     ref: "User",
     required: true,
-    unique: true,
   },
   creation_date: {
     type: Date,
@@ -25,6 +23,8 @@ const friendshipSchema = new Schema({
     required: true,
   },
 })
+
+friendshipSchema.index({ senderUser: 1, requestedUser: 1 }, { unique: true })
 
 const FriendshipModel = mongoose.model("Friendship", friendshipSchema)
 

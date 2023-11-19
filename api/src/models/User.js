@@ -28,8 +28,29 @@ const userSchema = new Schema({
     type: Date,
     required: true,
   },
+  friends: {
+    type: [
+      {
+        type: mongoose.Types.ObjectId,
+        ref: "User",
+      },
+    ],
+    default: [],
+  },
+  blockedUsers: {
+    type: [
+      {
+        type: mongoose.Types.ObjectId,
+        ref: "User",
+      },
+    ],
+    default: [],
+  },
 })
 
 const UserModel = mongoose.model("User", userSchema)
 
 module.exports = UserModel
+
+// buscar todas as amizades do usuário
+// buscar na lista de amizades, todas solicitações ACEITAS onde o id do usuário seja tanto o sender como o requested

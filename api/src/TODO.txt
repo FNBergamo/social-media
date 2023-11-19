@@ -1,6 +1,9 @@
-Integrar comentários com post
-Integrar amigos no usuário
+Verificar a utilização do id da amizade para desfazer amizade e blockear/desbloquear usuário
+Ajustar a remoção de amigos e bloqueados
 Listar Posts públicos (exluir hiddens caso não for o dono do post) e exibir privados (do usuário e amigos)
 Ordenar todos posts por ordem de criação
 Adicionar paginação
 Adicionar Swagger
+Adicionar "modified_at"
+substituir os "creation_date" por "creation_at"
+Adicionar accepted_by e blocked_by

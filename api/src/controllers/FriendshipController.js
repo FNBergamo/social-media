@@ -20,13 +20,8 @@ const getAllRequests = async (req, res) => {
 const getAllUserRequests = async (req, res) => {
   const userId = req.params.id
   const status = req.query.status || FRIENDSHIP_STATUS.WAITING
-  console.log(status)
 
   try {
-    // const friendships = await Friendship.find({
-    //   $or: [{ senderUser: userId }, { requestedUser: userId }],
-    // })
-
     const requestSended = await Friendship.find({
       senderUser: userId,
       status,
@@ -106,7 +101,7 @@ const sendRequest = async (req, res) => {
 
 const acceptDenyOrBlockRequest = async (req, res) => {
   const friendshipId = req.params.id
-  const { status } = req.body
+  const { userId, status } = req.body
 
   try {
     if (status === FRIENDSHIP_STATUS.REFUSED) {
@@ -114,6 +109,12 @@ const acceptDenyOrBlockRequest = async (req, res) => {
       return res
         .status(200)
         .json({ message: "Solicitação de amizade recusada" })
+    }
+
+    const user = await User.findById(userId)
+
+    if (!user) {
+      return res.status(404).json({ message: "Usuário não encontrado" })
     }
 
     const updatedFriendship = await Friendship.findByIdAndUpdate(
@@ -129,8 +130,24 @@ const acceptDenyOrBlockRequest = async (req, res) => {
     }
 
     if (updatedFriendship.status === FRIENDSHIP_STATUS.ACCEPTED) {
+      if (updatedFriendship.requestedUser.toString() === userId) {
+        const senderUser = await User.findById(updatedFriendship.senderUser)
+        senderUser.friends = [
+          ...senderUser.friends,
+          updatedFriendship.requestedUser,
+        ]
+        user.friends = [...user.friends, updatedFriendship.senderUser]
+        user.save()
+        senderUser.save()
+      } else {
+        return res
+          .status(400)
+          .json({ message: "Você não pode aceitar sua prórpia requisição" })
+      }
       return res.status(200).json({ message: "Solicitação de amizade aceita" })
     } else {
+      user.blockedUsers = [...user.blockedUsers, updatedFriendship.senderUser]
+      user.save()
       return res.status(200).json({ message: "Usuário bloqueado" })
     }
   } catch (err) {

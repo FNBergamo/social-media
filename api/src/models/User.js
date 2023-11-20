@@ -51,6 +51,3 @@ const userSchema = new Schema({
 const UserModel = mongoose.model("User", userSchema)
 
 module.exports = UserModel
-
-// buscar todas as amizades do usuário
-// buscar na lista de amizades, todas solicitações ACEITAS onde o id do usuário seja tanto o sender como o requested

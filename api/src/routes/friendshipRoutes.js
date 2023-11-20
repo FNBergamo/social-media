@@ -3,17 +3,17 @@ const {
   sendRequest,
   getAllRequests,
   getAllUserRequests,
-  acceptDenyOrBlockRequest,
   undoFriendship,
   blockOrUnblockUser,
+  acceptOrDenyRequest,
 } = require("../controllers/FriendshipController")
 const router = express.Router()
 
 router.get("/", getAllRequests)
 router.get("/:id", getAllUserRequests)
 router.post("/:id", sendRequest)
-router.put("/:id", acceptDenyOrBlockRequest)
-router.delete("/:id", undoFriendship)
-router.delete("/blocked/:id", blockOrUnblockUser)
+router.put("/:id", acceptOrDenyRequest)
+router.delete("/", undoFriendship)
+router.delete("/blocked", blockOrUnblockUser)
 
 module.exports = router

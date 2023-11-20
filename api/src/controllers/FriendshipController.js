@@ -90,7 +90,7 @@ const sendRequest = async (req, res) => {
     })
 
     newFriendshipRequest.save()
-    return res.sendStatus(201)
+    return res.status(201).json({ newFriendshipRequest })
   } catch (err) {
     console.log(err)
     return res
@@ -99,7 +99,7 @@ const sendRequest = async (req, res) => {
   }
 }
 
-const acceptDenyOrBlockRequest = async (req, res) => {
+const acceptOrDenyRequest = async (req, res) => {
   const friendshipId = req.params.id
   const { userId, status } = req.body
 
@@ -145,10 +145,6 @@ const acceptDenyOrBlockRequest = async (req, res) => {
           .json({ message: "Você não pode aceitar sua prórpia requisição" })
       }
       return res.status(200).json({ message: "Solicitação de amizade aceita" })
-    } else {
-      user.blockedUsers = [...user.blockedUsers, updatedFriendship.senderUser]
-      user.save()
-      return res.status(200).json({ message: "Usuário bloqueado" })
     }
   } catch (err) {
     console.log(err)
@@ -157,13 +153,35 @@ const acceptDenyOrBlockRequest = async (req, res) => {
 }
 
 const undoFriendship = async (req, res) => {
-  const friendshipId = req.params.id
+  const { sender, requester } = req.body
 
   try {
-    const friendship = await Friendship.findById(friendshipId)
+    const friendship = await Friendship.findOne({
+      $or: [
+        {
+          senderUser: { $in: [sender, requester] },
+          requestedUser: { $in: [sender, requester] },
+        },
+      ],
+    })
+
+    const senderUser = await User.findById(sender)
+    const requestedUser = await User.findById(requester)
 
     if (friendship.status === FRIENDSHIP_STATUS.ACCEPTED) {
-      await Friendship.findByIdAndDelete(friendshipId)
+      await Friendship.findByIdAndDelete(friendship._id)
+
+      senderUser.friends = senderUser.friends.filter(
+        (friend) => friend.toString() != friendship.requestedUser.toString()
+      )
+
+      requestedUser.friends = requestedUser.friends.filter(
+        (friend) => friend.toString() != friendship.senderUser.toString()
+      )
+
+      senderUser.save()
+      requestedUser.save()
+
       return res.status(200).json({ message: "Amizade desfeita" })
     }
   } catch (err) {
@@ -173,11 +191,39 @@ const undoFriendship = async (req, res) => {
 }
 
 const blockOrUnblockUser = async (req, res) => {
-  const friendshipId = req.params.id
+  const { sender, blocked } = req.body
 
   try {
-    await Friendship.findByIdAndDelete(friendshipId)
-    return res.status(200).json({ message: "Usuário não mais bloquedo" })
+    const friendship = await Friendship.findOne({
+      senderUser: sender,
+      requestedUser: blocked,
+      status: FRIENDSHIP_STATUS.BLOCKED,
+    })
+    const user = await User.findById(sender)
+
+    if (friendship) {
+      await Friendship.findByIdAndDelete(friendship._id)
+      user.blockedUsers = user.blockedUsers.filter((friend) => {
+        return friend.toString() !== blocked
+      })
+
+      user.save()
+    } else {
+      const newFriendshipRequest = new Friendship({
+        senderUser: sender,
+        requestedUser: blocked,
+        creation_date: new Date(),
+        status: FRIENDSHIP_STATUS.BLOCKED,
+      })
+      newFriendshipRequest.save()
+
+      user.blockedUsers = [...user.blockedUsers, blocked]
+      user.save()
+
+      return res.status(200).json({ message: "Usuário bloqueado" })
+    }
+
+    return res.status(200).json({ message: "Usuário não mais bloqueado" })
   } catch (err) {
     console.log(err)
     return res.status(500).json({ message: "Erro interno" })
@@ -186,7 +232,7 @@ const blockOrUnblockUser = async (req, res) => {
 
 module.exports = {
   sendRequest,
-  acceptDenyOrBlockRequest,
+  acceptOrDenyRequest,
   blockOrUnblockUser,
   undoFriendship,
   getAllRequests,

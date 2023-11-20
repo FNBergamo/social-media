@@ -7,10 +7,6 @@ const postSchema = new Schema({
     type: String,
     required: true,
   },
-  creation_date: {
-    type: Date,
-    required: true,
-  },
   image: {
     type: String,
   },
@@ -54,6 +50,14 @@ const postSchema = new Schema({
       },
     ],
     default: [],
+  },
+  created_at: {
+    type: Date,
+    required: true,
+  },
+  modified_at: {
+    type: Date,
+    required: true,
   },
 })
 

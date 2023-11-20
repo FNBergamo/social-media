@@ -46,7 +46,7 @@ const getAllPublicPosts = async (req, res) => {
 
     const posts = await Post.find({ private: false, hidden: false })
       .sort({
-        creation_date: -1,
+        created_at: -1,
       })
       .skip((page - 1) * perPage)
       .limit(perPage)
@@ -84,7 +84,7 @@ const createPost = async (req, res) => {
     tags,
     user: userId,
     community: communityId,
-    creation_date: new Date(),
+    created_at: new Date(),
     private,
     hidden,
   })

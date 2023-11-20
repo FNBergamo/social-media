@@ -11,6 +11,14 @@ const postInteractionSchema = new Schema({
   type: {
     type: String,
   },
+  created_at: {
+    type: Date,
+    required: true,
+  },
+  modified_at: {
+    type: Date,
+    required: true,
+  },
 })
 
 const PostInteractionModel = mongoose.model(

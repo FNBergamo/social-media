@@ -40,7 +40,7 @@ const createComment = async (req, res) => {
       tags,
       user: userId,
       post: postId,
-      creation_date: new Date(),
+      created_at: new Date(),
     })
     comment.save()
 

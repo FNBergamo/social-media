@@ -3,10 +3,6 @@ const mongoose = require("mongoose")
 const Schema = mongoose.Schema
 
 const commentSchema = new Schema({
-  creation_date: {
-    type: Date,
-    required: true,
-  },
   text: {
     type: String,
     required: true,
@@ -36,6 +32,14 @@ const commentSchema = new Schema({
       },
     ],
     default: [],
+  },
+  created_at: {
+    type: Date,
+    required: true,
+  },
+  modified_at: {
+    type: Date,
+    required: true,
   },
 })
 

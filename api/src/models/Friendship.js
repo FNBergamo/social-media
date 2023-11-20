@@ -14,12 +14,16 @@ const friendshipSchema = new Schema({
     ref: "User",
     required: true,
   },
-  creation_date: {
+  status: {
+    type: String,
+    required: true,
+  },
+  created_at: {
     type: Date,
     required: true,
   },
-  status: {
-    type: String,
+  modified_at: {
+    type: Date,
     required: true,
   },
 })

@@ -11,6 +11,14 @@ const commentInteractionSchema = new Schema({
   type: {
     type: String,
   },
+  created_at: {
+    type: Date,
+    required: true,
+  },
+  modified_at: {
+    type: Date,
+    required: true,
+  },
 })
 
 const CommentInteractionModel = mongoose.model(

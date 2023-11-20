@@ -85,7 +85,7 @@ const sendRequest = async (req, res) => {
     const newFriendshipRequest = new Friendship({
       senderUser: senderId,
       requestedUser: requestedId,
-      creation_date: new Date(),
+      created_at: new Date(),
       status: FRIENDSHIP_STATUS.WAITING,
     })
 
@@ -212,7 +212,7 @@ const blockOrUnblockUser = async (req, res) => {
       const newFriendshipRequest = new Friendship({
         senderUser: sender,
         requestedUser: blocked,
-        creation_date: new Date(),
+        created_at: new Date(),
         status: FRIENDSHIP_STATUS.BLOCKED,
       })
       newFriendshipRequest.save()

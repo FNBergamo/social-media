@@ -40,7 +40,6 @@ const createComment = async (req, res) => {
       tags,
       user: userId,
       post: postId,
-      created_at: new Date(),
     })
     comment.save()
 
@@ -60,6 +59,7 @@ const updateComment = async (req, res) => {
   try {
     await Comment.findByIdAndUpdate(commentId, {
       tags,
+      modified_at: new Date(),
     })
     return res.sendStatus(200)
   } catch (err) {
@@ -131,6 +131,7 @@ const setCommentInteraction = async (req, res) => {
       if (userInteraction.type !== interactionType) {
         await CommentInteractions.findByIdAndUpdate(userInteraction._id, {
           type: interactionType,
+          modified_at: new Date(),
         })
         updatedInteractions = comment.interactions
       } else {
@@ -163,7 +164,13 @@ const setCommentInteraction = async (req, res) => {
 
     const response = await Comment.findByIdAndUpdate(
       commentId,
-      { $set: { interactions: updatedInteractions, likes } },
+      {
+        $set: {
+          interactions: updatedInteractions,
+          likes,
+          modified_at: new Date(),
+        },
+      },
       { new: true }
     )
     return res.status(200).json({ response })

@@ -84,7 +84,6 @@ const createPost = async (req, res) => {
     tags,
     user: userId,
     community: communityId,
-    created_at: new Date(),
     private,
     hidden,
   })
@@ -109,6 +108,7 @@ const updatePost = async (req, res) => {
       tags,
       private,
       hidden,
+      modified_at: new Date(),
     })
   } catch (err) {
     console.log(err)
@@ -147,6 +147,7 @@ const setPostInteraction = async (req, res) => {
       if (userInteraction.type !== interactionType) {
         await PostInteractions.findByIdAndUpdate(userInteraction._id, {
           type: interactionType,
+          modified_at: new Date(),
         })
         updatedInteractions = post.interactions
       } else {
@@ -179,7 +180,13 @@ const setPostInteraction = async (req, res) => {
 
     const response = await Post.findByIdAndUpdate(
       postId,
-      { $set: { interactions: updatedInteractions, likes } },
+      {
+        $set: {
+          interactions: updatedInteractions,
+          likes,
+          modified_at: new Date(),
+        },
+      },
       { new: true }
     )
     return res.status(200).json({ response })

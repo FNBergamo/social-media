@@ -85,7 +85,6 @@ const sendRequest = async (req, res) => {
     const newFriendshipRequest = new Friendship({
       senderUser: senderId,
       requestedUser: requestedId,
-      created_at: new Date(),
       status: FRIENDSHIP_STATUS.WAITING,
     })
 
@@ -119,7 +118,7 @@ const acceptOrDenyRequest = async (req, res) => {
 
     const updatedFriendship = await Friendship.findByIdAndUpdate(
       friendshipId,
-      { status },
+      { status, modified_at: new Date() },
       { new: true }
     )
 
@@ -212,7 +211,6 @@ const blockOrUnblockUser = async (req, res) => {
       const newFriendshipRequest = new Friendship({
         senderUser: sender,
         requestedUser: blocked,
-        created_at: new Date(),
         status: FRIENDSHIP_STATUS.BLOCKED,
       })
       newFriendshipRequest.save()

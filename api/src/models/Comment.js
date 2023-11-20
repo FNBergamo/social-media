@@ -36,10 +36,10 @@ const commentSchema = new Schema({
   created_at: {
     type: Date,
     required: true,
+    default: new Date(),
   },
   modified_at: {
     type: Date,
-    required: true,
   },
 })
 

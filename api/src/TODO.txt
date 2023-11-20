@@ -3,5 +3,4 @@ Ordenar todos posts por ordem de criação
 Adicionar paginação
 Adicionar Swagger
 Adicionar "modified_at"
-substituir os "created_at" por "creation_at"
 Adicionar accepted_by e blocked_by

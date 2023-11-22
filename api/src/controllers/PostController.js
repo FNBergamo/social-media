@@ -1,237 +1,72 @@
-const { INTERACTION_TYPE } = require("../constants/Interaction")
-const Post = require("../models/Post")
-const User = require("../models/User")
-const PostInteractions = require("../models/PostInteractions")
+const PostService = require("../services/PostService")
 
 const getAllPosts = async (req, res) => {
-  try {
-    const page = parseInt(req.query.page) || 1
-    const perPage = parseInt(req.query.perPage) || 10
+  const page = parseInt(req.query.page)
+  const perPage = parseInt(req.query.perPage)
 
-    const totalPosts = await Post.countDocuments()
-    const totalPages = Math.ceil(totalPosts / perPage)
-
-    const posts = await Post.find()
-      .skip((page - 1) * perPage)
-      .limit(perPage)
-      .populate({ path: "user", select: "name username profilePicture" })
-      .populate({
-        path: "comments",
-        populate: {
-          path: "user",
-          select: "name username profilePicture",
-        },
-      })
-      .exec()
-
-    if (!posts.length) {
-      return res
-        .status(404)
-        .json({ message: "Nenhum registro de post encontrado" })
-    }
-    return res.status(200).json({ posts, totalPages, currentPage: page })
-  } catch (err) {
-    console.log(err)
-    return res.status(500).json({ message: "Erro interno" })
-  }
+  const { status, data } = await PostService.getAllPosts(page, perPage)
+  return res.status(status).json(data)
 }
 
 const getAllPublicPosts = async (req, res) => {
-  try {
-    const page = parseInt(req.query.page) || 1
-    const perPage = parseInt(req.query.perPage) || 10
+  const page = parseInt(req.query.page)
+  const perPage = parseInt(req.query.perPage)
 
-    const totalPosts = await Post.countDocuments()
-    const totalPages = Math.ceil(totalPosts / perPage)
-
-    const posts = await Post.find({ private: false, hidden: false })
-      .sort({
-        created_at: -1,
-      })
-      .skip((page - 1) * perPage)
-      .limit(perPage)
-
-    if (!posts.length) {
-      return res
-        .status(404)
-        .json({ message: "Nenhum registro de post encontrado" })
-    }
-    return res.status(200).json({ posts, totalPages, currentPage: page })
-  } catch (err) {
-    console.log(err)
-    return res.status(500).json({ message: "Erro interno" })
-  }
+  const { status, data } = await PostService.getAllPublicPosts(page, perPage)
+  return res.status(status).json(data)
 }
 
 const createPost = async (req, res) => {
   const { title, image, tags, userId, communityId, private, hidden } = req.body
 
-  let user
-
-  try {
-    user = await User.findById(userId)
-  } catch (err) {
-    console.log(err)
-  }
-
-  if (!user) {
-    return res.status(404).json({ message: "Usuário não encontrado" })
-  }
-
-  const post = new Post({
+  const { status, data } = await PostService.createPost(
     title,
     image,
     tags,
-    user: userId,
-    community: communityId,
+    userId,
+    communityId,
     private,
-    hidden,
-  })
-
-  try {
-    post.save()
-  } catch (err) {
-    console.log(err)
-    return res.status(500).json({ message: "Erro interno" })
-  }
-  return res.status(201).json({ post })
+    hidden
+  )
+  return res.status(status).json(data)
 }
 
 const updatePost = async (req, res) => {
+  const { id } = req.params
   const { tags, private, hidden } = req.body
-  const postId = req.params.id
 
-  let post
-
-  try {
-    post = await Post.findByIdAndUpdate(postId, {
-      tags,
-      private,
-      hidden,
-      modified_at: new Date(),
-    })
-  } catch (err) {
-    console.log(err)
-  }
-
-  if (!post) {
-    return res
-      .status(500)
-      .json({ message: "Não foi possível atualizar o post" })
-  }
-
-  return res.sendStatus(200)
+  const { status, data } = await PostService.updatePost(
+    id,
+    tags,
+    private,
+    hidden
+  )
+  return res.status(status).json(data)
 }
 
 const setPostInteraction = async (req, res) => {
   const { userId, postId, interactionType } = req.body
 
-  let updatedInteractions = []
-
-  try {
-    const post = await Post.findById(postId)
-
-    if (!post) {
-      return res.status(404).json({ message: "Post não encontrado" })
-    }
-
-    const user = await User.findById(userId)
-
-    if (!user) {
-      return res.status(404).json({ message: "Usuário não encontrado" })
-    }
-
-    const userInteraction = await PostInteractions.findOne({ user: userId })
-
-    if (userInteraction) {
-      if (userInteraction.type !== interactionType) {
-        await PostInteractions.findByIdAndUpdate(userInteraction._id, {
-          type: interactionType,
-          modified_at: new Date(),
-        })
-        updatedInteractions = post.interactions
-      } else {
-        updatedInteractions = post.interactions.filter(
-          (interaction) =>
-            interaction.toString() !== userInteraction._id.toString()
-        )
-
-        await PostInteractions.findByIdAndDelete(userInteraction._id)
-      }
-    } else {
-      const newInteraction = new PostInteractions({
-        user: userId,
-        type: interactionType,
-      })
-      await newInteraction.save()
-
-      updatedInteractions = [...post.interactions, newInteraction._id]
-    }
-
-    const interactions = await PostInteractions.find()
-    const likes = interactions.reduce((result, interaction) => {
-      if (interaction.type === INTERACTION_TYPE.UPVOTE) {
-        result++
-      } else if (interaction.type === INTERACTION_TYPE.DOWNVOTE) {
-        result--
-      }
-      return result
-    }, 0)
-
-    const response = await Post.findByIdAndUpdate(
-      postId,
-      {
-        $set: {
-          interactions: updatedInteractions,
-          likes,
-          modified_at: new Date(),
-        },
-      },
-      { new: true }
-    )
-    return res.status(200).json({ response })
-  } catch (err) {
-    console.log(err)
-    return res.status(500).json({ message: "Erro Interno" })
-  }
+  const { status, data } = await PostService.setPostInteraction(
+    userId,
+    postId,
+    interactionType
+  )
+  return res.status(status).json(data)
 }
 
 const deletePost = async (req, res) => {
-  const postId = req.params.id
+  const { id } = req.params
 
-  let post
-
-  try {
-    post = await Post.findByIdAndDelete(postId)
-  } catch (err) {
-    console.log(err)
-  }
-
-  if (!post) {
-    return res.status(500).json({ message: "Não foi possivel excluir o post" })
-  }
-
-  return res.sendStatus(200)
+  const { status, data } = await PostService.deletePost(id)
+  return res.status(status).json(data)
 }
 
 const getPostById = async (req, res) => {
-  const postId = req.params.id
+  const { id } = req.params
 
-  try {
-    const post = await Post.findById(postId)
-      .populate({ path: "user", select: "name username profilePicture" })
-      .populate({
-        path: "comments",
-        populate: {
-          path: "user",
-          select: "name username profilePicture",
-        },
-      })
-      .exec()
-    return res.status(200).json({ post })
-  } catch (err) {
-    console.error(err)
-  }
+  const { status, data } = await PostService.getPostById(id)
+  return res.status(status).json(data)
 }
 
 module.exports = {

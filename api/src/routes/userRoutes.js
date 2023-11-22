@@ -32,19 +32,4 @@ router.get("/protected", (req, res) => {
   }
 })
 
-router.get("/create-community", (req, res) => {
-  // id, nome, participantes, foto, posts, data de criação
-})
-
-router.get("/create-comments", (req, res) => {
-  // id, nome, autor, foto, titulo, data de criação
-})
-
 module.exports = router
-
-// const TAGS = [
-//   { id: 0, name: "Movies" },
-//   { id: 1, name: "Series" },
-//   { id: 2, name: "Spoiler" },
-//   { id: 3, name: "Discussion" },
-// ]

@@ -2,5 +2,3 @@ Listar Posts públicos (exluir hiddens caso não for o dono do post) e exibir pr
 Ordenar todos posts por ordem de criação
 Adicionar paginação
 Adicionar Swagger
-Adicionar "modified_at"
-Adicionar accepted_by e blocked_by

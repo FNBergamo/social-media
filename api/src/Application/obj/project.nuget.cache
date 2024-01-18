@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bz+nsCOBUe3N9sWt9CqnYAfys7asmfYEKZH63Ro8q12tAkYA95VmzvwxTGOpOD2XNk2+027p8lpWuS+6LZyKCQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lipe-\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
+    "C:\\Users\\lipe-\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.8.1\\fluentvalidation.dependencyinjectionextensions.11.8.1.nupkg.sha512",
+    "C:\\Users\\lipe-\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\lipe-\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\lipe-\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

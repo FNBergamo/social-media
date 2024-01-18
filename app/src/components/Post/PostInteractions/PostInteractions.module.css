@@ -1,0 +1,17 @@
+.button {
+  background-color: transparent;
+  border: none;
+  padding: 3px;
+}
+
+.interactions {
+  display: flex;
+}
+
+.upvote {
+  color: green;
+}
+
+.downvote {
+  color: red;
+}

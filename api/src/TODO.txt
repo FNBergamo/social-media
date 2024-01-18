@@ -1,4 +1,0 @@
-Listar Posts públicos (exluir hiddens caso não for o dono do post) e exibir privados (do usuário e amigos)
-Ordenar todos posts por ordem de criação
-Adicionar paginação
-Adicionar Swagger

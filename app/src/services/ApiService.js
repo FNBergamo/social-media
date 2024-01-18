@@ -1,8 +1,17 @@
-import axios from "axios"
-import { API_URL } from "../constants/Endpoints"
+import axios from 'axios'
+import { API_URL } from '../constants/Endpoints'
+// import { useAuth } from '../hooks/useAuth'
 
-export const ApiService = axios.create({
+export function useHttp() {
+  // const { accessToken } = useAuth()
+
+  return axios.create({
+    baseURL: API_URL,
+  })
+}
+
+export const axiosPrivate = axios.create({
   baseURL: API_URL,
-  // Disabling xsrf cookie validation
-  xsrfCookieName: null,
+  headers: { 'Content-Type': 'application/json' },
+  // withCredentials: true,
 })

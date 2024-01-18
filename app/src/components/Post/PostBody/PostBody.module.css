@@ -1,0 +1,9 @@
+.postText {
+}
+
+.postImage {
+  margin: 12px 0;
+  max-height: 700px;
+  object-fit: contain;
+  border-radius: 15px;
+}

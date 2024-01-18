@@ -1,0 +1,45 @@
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\bin\Debug\net8.0\Domain.deps.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\bin\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\bin\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\obj\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\obj\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\bin\Debug\net8.0\Domain.deps.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\bin\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\bin\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\obj\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\obj\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\bin\Debug\net8.0\Domain.deps.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\bin\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\bin\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\obj\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\obj\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\bin\Debug\net8.0\Domain.deps.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\bin\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\bin\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\obj\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\obj\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\Domain\obj\Debug\net8.0\ref\Domain.dll

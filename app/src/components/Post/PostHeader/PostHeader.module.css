@@ -1,0 +1,29 @@
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profilePicture {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.userDescription {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.select {
+  max-width: 72px;
+  outline: none;
+}

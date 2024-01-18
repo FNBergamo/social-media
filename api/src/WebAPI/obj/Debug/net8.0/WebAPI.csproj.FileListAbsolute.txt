@@ -1,0 +1,493 @@
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\appsettings.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\WebAPI.exe
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\WebAPI.deps.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\WebAPI.runtimeconfig.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\WebAPI.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\FluentValidation.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\MediatR.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\MediatR.Contracts.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Npgsql.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Application.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Infrastructure.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Application.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Infrastructure.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.AssemblyReference.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfoInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\scopedcss\bundle\WebAPI.styles.css
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CopyComplete
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\refint\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Humanizer.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\api\src\WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\appsettings.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\WebAPI.exe
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\WebAPI.deps.json
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\WebAPI.runtimeconfig.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\WebAPI.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\FluentValidation.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Humanizer.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\MediatR.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\MediatR.Contracts.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Npgsql.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\System.CodeDom.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Application.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Infrastructure.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Application.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Infrastructure.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\bin\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.AssemblyReference.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfoInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\scopedcss\bundle\WebAPI.styles.css
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CopyComplete
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\refint\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.pdb
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia\api\src\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\refint\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\appsettings.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\WebAPI.exe
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\WebAPI.deps.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\WebAPI.runtimeconfig.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\WebAPI.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\FluentValidation.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Humanizer.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\MediatR.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\MediatR.Contracts.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Npgsql.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\System.CodeDom.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Application.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Infrastructure.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Application.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Infrastructure.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\bin\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.AssemblyReference.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfoInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\scopedcss\bundle\WebAPI.styles.css
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CopyComplete
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\dotnet-projets\SocialMedia - Copia\teste\src\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\appsettings.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\WebAPI.exe
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\WebAPI.deps.json
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\WebAPI.runtimeconfig.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\WebAPI.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\FluentValidation.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Humanizer.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\MediatR.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\MediatR.Contracts.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Npgsql.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\System.CodeDom.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Application.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Domain.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Infrastructure.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Application.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Infrastructure.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\bin\Debug\net8.0\Domain.pdb
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.AssemblyReference.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfoInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\scopedcss\bundle\WebAPI.styles.css
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CopyComplete
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\refint\WebAPI.dll
+c:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.pdb
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
+C:\Users\lipe-\OneDrive\Documentos\Git Projects\git clone\social-media\api\src\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll

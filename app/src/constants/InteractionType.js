@@ -1,0 +1,5 @@
+export const INTERACTION_TYPE = {
+  UPVOTE: 1,
+  DOWNVOTE: 2,
+  NO_INTERACTION: 3,
+}

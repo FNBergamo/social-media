@@ -1,0 +1,13 @@
+.postCard {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.postCardHidden {
+  display: none;
+}

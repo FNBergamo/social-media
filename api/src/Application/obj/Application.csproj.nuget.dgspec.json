@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Application\\Application.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\lipe-\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lipe-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\lipe-\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\lipe-\\OneDrive\\Documentos\\Git Projects\\git clone\\social-media\\api\\src\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lipe-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
